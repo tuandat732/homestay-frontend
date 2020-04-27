@@ -1,0 +1,15 @@
+.room-detail-extra-price{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.room-detail-extra-price>*{
+    width: 50%;
+}
+.room-detail-price-minnight{
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-detail-price-minnight>*{
+    width: 50%;
+}

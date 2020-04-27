@@ -1,0 +1,38 @@
+.room-detail-facilities-specific{
+    /* display: flex;
+    flex-wrap: wrap */
+}
+.room-detail-facilities-specific>*{
+    /* margin-right: 100px; */
+}
+.room-detail-facilities-family{
+    margin-top: 20px;
+    
+}
+.room-detail-facilities-kitchen{
+    margin-top: 20px;
+}
+.room-detail-facilities-entertainment{
+    margin-top: 20px;
+}
+
+.room-detail-facilities-family>*{
+    flex-wrap: wrap;
+    
+}
+.tien-ich{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.tien-ich>*{
+    width: 33%;
+}
+.tien-ich div{
+ overflow-wrap: break-word;   
+}
+/* @media only screen and (max-width:800px){
+    .tien-ich>*{
+        width: 50%;
+    }
+} */
+

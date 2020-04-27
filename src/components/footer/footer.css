@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    flex-wrap: wrap;
+    /* margin-bottom:100px; */
+
+    
+    
+}
+.footer>.footer-item{
+    display: flex;
+    align-items: center;  
+    margin-bottom:20px;
+   
+}
+.footer-item>i{
+    margin-left:4px;
+}
+.footer-item>*{
+    margin:10px;
+}
+.footer-item>a{
+    text-decoration: none;
+    color:black;
+}
+.footer-item>a:hover{
+    color:rgb(255, 72, 0);
+    transition:all .3s;
+    text-decoration: none;
+
+}
+

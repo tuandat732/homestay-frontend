@@ -1,0 +1,94 @@
+.search-nav{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    width: 100%;
+
+} 
+.component-home>.search-nav{
+    cursor: no-drop;
+}
+.search-nav>.container1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-nav>.container1>*{
+    flex-grow: 1;
+}
+.search-nav>.container1>.search-date{
+    text-align: start;
+    margin:10px;
+    margin-left:0;
+    display: flex;
+    border:none;
+    font-weight: 700;
+}
+.search-nav>.container1>.search-date>*{
+    flex-grow:1;
+}
+
+
+.search-nav>.container1>input {
+    background-color: #e7e7e7;
+    text-align: start;
+    margin:10px;
+    margin-left:0;
+    padding:10px;
+    border:none;
+    font-weight: 700;
+}
+.react-datepicker__input-container>*{
+    width: 100%;
+    padding:10px 0;
+    background-color: #e7e7e7;
+    text-align: start;
+  
+    padding:10px;
+    border:none;
+    font-weight: 700;
+}
+.react-datepicker-wrapper{
+    margin:10px;
+}
+
+.search-nav>.container1>button{
+    padding: 10px 12px;
+    border:none;
+    margin:10px;
+    margin-left:0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    background-image: linear-gradient(125deg,#ff481b 0,#ff903b 51%,#fdad97);
+   
+}
+
+
+@media screen and (max-width:1100px){
+    .search-nav >.container1>*{
+        width: 100%;
+    }
+    .search-date{
+        margin:10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .search-date>*{
+      
+        width: 100%;
+        display: flex;
+     
+        margin: 0 auto;
+    }
+    .react-datepicker__input-container>*{
+        padding:10px 0;
+        background-color: #e7e7e7;
+        text-align: start;
+        margin:10px 0;
+        padding:10px;
+        border:none;
+        font-weight: 700;
+    }
+}

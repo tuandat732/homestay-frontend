@@ -1,0 +1,47 @@
+.room-detail-survey{
+    display: flex;
+    flex-direction: column;
+    
+}
+.room-detail-survey-info>*{
+    margin: 15px 0;
+}
+.room-detail-survey-room-name{
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.room-detail-survey-address{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.room-detail-survey-house-type{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.room-detail-survey-address>*{
+    margin-right: 8px;
+    font-weight: 500;
+}
+.room-detail-survey-house-type>*{
+    font-weight: 500;
+    margin-right: 8px
+}
+.room-detail-survey-room-type{
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-detail-survey-room-type>*{
+    margin-right: 8px;
+    font-weight: 500px;
+}
+.room-detail-survey-specific-detail span{
+    overflow-wrap: break-word;
+}
+
+.room-detail-survey-room-name{
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+.search-result>div{
+   display: flex;
+   flex-wrap: wrap;
+   padding : auto;
+   /* justify-content: center; */
+}
+
+.search-body{
+    margin:40px 0;
+}
+.search-result{
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-result>div>*{
+    margin:0 24px !important;
+    width: 20%;
+    height: 300px !important;
+    
+}
+.search-result img{
+    /* width: 20% !important; */
+}

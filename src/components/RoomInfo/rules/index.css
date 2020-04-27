@@ -1,0 +1,18 @@
+.room-detail-rules-time-takeroom{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.room-detail-rules-time-takeroom>*{
+    width: 50%;
+}
+.room-detail-rules-time-leftroom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-detail-rules-time-leftroom>*{
+    width: 50%;
+}
+.room-detail-rules>*{
+    margin-top: 20px;
+}

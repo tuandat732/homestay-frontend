@@ -1,0 +1,170 @@
+
+
+
+#nav-bar {
+    /* position: absolute; */
+    /* top:0; */
+    border-bottom :1px solid rgb(209, 209, 209);
+    height:60px;
+}
+
+#nav-bar-content {
+    display:flex;
+ 
+}
+#nav-bar div{
+    height:100%;
+    line-height: 60px
+   
+}
+#logo{
+    flex-grow: 3;
+   
+}
+#nav-bar-items{
+  
+    flex-grow:1;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+/* #nav-bar-items>.nav-bar-item{
+    margin-left : 100px;
+} */
+input{
+    position: relative;
+}
+#become-host-btn{
+    color:rgb(253, 93, 0) ;
+    padding:10px;
+    background-color:white;
+    border:1px solid rgb(253, 93, 0);
+    display:flex;
+    align-items:center;
+}
+
+#become-host-btn:hover{
+    color:white ;
+    background-color:rgb(253, 93, 0);
+    transition:0.3s all;
+    cursor: pointer;
+}
+#become-host-btn:hover>a{
+    color:white;
+    transition:0.8s all;
+
+}
+#become-host-btn>a{
+    text-decoration: none;
+    color:rgb(253, 93, 0);
+}
+.nav-bar-item>a{
+    text-decoration: none;
+    color:black;
+}
+.nav-bar-item:hover>a{
+    text-decoration: none;
+    transition:0.3s all;
+    cursor: pointer;
+    color:rgb(255, 81, 0)
+}
+.layer{
+    position: fixed;
+    width: 0%;
+    height:100%;
+    /* transition:all .5s; */
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.layer-active{
+    width: 100%
+}
+.layer-deactive{
+    width: 0;
+}
+
+.layer>.side-nav-bar-items{
+    width: 0px;
+    height: 100vh;
+    background-color:white;
+    position: fixed;
+    left:0;
+    z-index: 100;
+}
+
+.side-nav-bar-items img, .side-nav-bar-items i{
+    opacity: 0;
+}
+
+
+.layer> .active{
+    width: 500px;
+    transition: all 1s;
+    font-size: 19px;
+    position: relative;
+    left:0;
+
+}
+
+.active img, .active i{
+    opacity: 1
+}
+
+.side-nav-bar-items>i{
+    /* float:left; */
+    margin-left:90%;
+    font-size : 24px;
+    font-weight: 700;
+    margin-top:12px;
+
+}
+.side-nav-bar-items>div{
+    margin-bottom:32px;
+    /* margin-left:10px; */
+    padding-left:10px;
+}
+.side-nav-bar-item{
+    font-size :2em;
+    font-weight: 600;
+
+}
+.side-nav-bar-item:hover{
+    cursor: pointer;
+    background-color:rgb(165, 165, 165);
+    transition:all 1s;
+}
+
+
+
+.layer> .deactive{
+    width: 500px;
+    transition: all 1s;
+    font-size: 19px;
+    position:relative;
+    left:-500px;
+}
+
+
+#logo{
+    cursor: pointer;
+}
+#logo:hover a{
+    text-decoration: none;
+    color:black;
+}
+#logo a{
+    text-decoration: none;
+    color:black;
+}
+
+@media only screen and (max-width:500px){
+    .layer>.active{
+        width: 100%;
+       
+    }
+}
+
+
+
+

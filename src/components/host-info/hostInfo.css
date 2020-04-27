@@ -1,0 +1,44 @@
+.nav-pills{
+    background-color:black;
+    
+}
+.nav-pills-host>div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* padding : 12px 0;    */
+
+}
+.nav-pills-host>div{
+    height: 100%;
+}
+
+.nav-pills-host>div>li>a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-pills-host>div>div>li>a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+
+}
+.nav-pills-host>div>li{
+    cursor: pointer;
+    display: block;
+    margin-right: 12px;
+    padding:12px;
+}
+.nav-pills-host>div>div>li{
+    cursor: pointer;
+    display: block;
+    background-color:whitesmoke;
+    margin-right: 12px;
+    padding:12px;
+}
+
+div>p>li{
+    display: block;
+    margin-right: 32px;
+}
